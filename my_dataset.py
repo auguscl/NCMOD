@@ -41,7 +41,7 @@ class MyDataset(Dataset):
         self.neibs_local = []
         self.noneibs_local = []
 
-        # self.init_knn()
+        self.init_knn()
 
     def get_name(self):
         return self.dataset_name
